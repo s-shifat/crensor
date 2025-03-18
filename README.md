@@ -19,6 +19,17 @@ I would recommend to maintain a virtual environment. Although not mandatory.
     cd path/to/your/project
     python -m venv venv
     ```
+* Activate the virtual environment:
+  
+    *Windows*
+    ```powershell
+   .\.venv\Scripts\activate.ps1 
+    ```
+
+    *Linux/macOS*
+    ```bash
+   source .venv/bin/activate
+    ```
 
 * Install the library
 
@@ -60,10 +71,11 @@ wget -qO- https://astral.sh/uv/install.sh | sh
 To install `crensor` you can initiate a `uv` project and simply add the library.
 All dependencies will be installed automatically.
 
-1. Initialize a project
+1. Initialize a project and navigate into it.
 
     ```bash
     uv init yourproject
+    cd yourproject
     ```
 
 2. Add the library
