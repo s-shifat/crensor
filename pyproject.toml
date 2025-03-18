@@ -1,0 +1,22 @@
+[project]
+name = "crensor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shams E Shifat", email = "shamseshifat@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "ipython",
+  "jupyter",
+  "folium",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
