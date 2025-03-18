@@ -2,6 +2,9 @@ import sqlite3
 import pandas as pd
 import folium
 
+def check_env():
+    print("good")
+
 
 def read_sensordb(db_path: str, table_name= "BUMP", sql_querry=None, time_column="TIMESTAMP"):
     """
