@@ -1,7 +1,7 @@
 # Crensor
 
 
-This is a data handling library built in top of [`pandas`](https://pandas.pydata.org/) and friends
+This is a data handling library built on top of [`pandas`](https://pandas.pydata.org/) and friends
 
 It is specifically designed to work on a specific timesieries sensor data collected in [CREATELAB](https://sites.google.com/d/1GwwjRK1G4GCpFvB04ilbo9HEXWuIQQly/p/1E5hh4221vxXGa8FiUDTapCxAzJilCPJv/edit?pli=1) experiments.
 
