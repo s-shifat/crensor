@@ -17,18 +17,18 @@ I would recommend to maintain a virtual environment. Although not mandatory.
 
     ```bash
     cd path/to/your/project
-    python -m venv venv
+    python -m venv createlab_env
     ```
 * Activate the virtual environment:
   
     *Windows*
     ```powershell
-   .\.venv\Scripts\activate.ps1 
+   .\createlab_env\Scripts\activate.ps1 
     ```
 
     *Linux/macOS*
     ```bash
-   source .venv/bin/activate
+   source createlab_env/bin/activate
     ```
 
 * Install the library
